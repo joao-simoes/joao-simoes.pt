@@ -46,6 +46,9 @@
   #app {
     font-family: $urbanist;
     background-image: url('../../assets/img/bg.svg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   h1 {

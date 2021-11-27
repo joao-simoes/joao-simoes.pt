@@ -25,52 +25,28 @@
         </div>
       </div>
       <div class="col-8 ps-5 pt-4">
-        <!-- INFO -->
-        <section>
-          <h2>João Simões</h2>
-          <h2>21 yo</h2>
-          <h2>Portugal</h2>
-        </section>
-        <!-- INFO -->
 
-        <!-- STUDIES -->
+        <!-- inChroma Studio -->
         <section>
-          <h2 class="mt-5 pt-5">STUDIES</h2>
+          <h2>inChroma Studio</h2>
           <hr />
-          <h3 class="mt-3">2019-2022</h3>
-          <h4>Instituto Politécnico do Porto</h4>
-          <h6>Escola Superior de Media Artes e Design</h6>
-          <p>Degree in Technologies and Information Systems for the Web</p>
-          <h3 class="mt-5 pt-2">2020-2021</h3>
-          <h4>Cracow University of Technology</h4>
-          <h6>Faculty of Computer Science and Telecommunication</h6>
-          <p>One year of ERASMUS in Computer Science</p>
+          <h3 class="mt-3">2021</h3>
+          <h4>Full-Stack Project</h4>
+          <h5 class="mt-4"><a href="http://www.inchromastudio.pt" target="_blank">www.inchromastudio.pt</a></h5>
         </section>
-        <!-- STUDIES -->
+        <!-- inChroma Studio -->
 
-        <!-- HOBBIES -->
-        <section class="hobbies">
-          <h2 class="mt-5 pt-5">HOBBIES</h2>
-          <hr />
-          <p>Music</p>
-          <p>Photography</p>
-          <p>Video</p>
-          <p>Travel</p>
-          <p>Homebrewing</p>
-        </section>
-        <!-- HOBBIES -->
+        
 
-        <!-- SOCIAL MEDIA -->
-        <section>
-          <h2 class="mt-5 pt-5">SOCIAL MEDIA</h2>
+        <!-- inChroma Studio -->
+        <section class="mt-5 pt-5">
+          <h2>A Saboeira - Turismo Rural</h2>
           <hr />
-          <p>Music</p>
-          <p>Photography</p>
-          <p>Video</p>
-          <p>Travel</p>
-          <p>Homebrewing</p>
+          <h3 class="mt-3">2022</h3>
+          <h4>Full-Stack Project - UNDER DEVELOPMENT</h4>
+          <h5 class="mt-4"><a href="#" target="_blank">www.asaboeira.pt</a></h5>
         </section>
-        <!-- SOCIAL MEDIA -->
+        <!-- inChroma Studio -->
       </div>
     </div>
   </div>
