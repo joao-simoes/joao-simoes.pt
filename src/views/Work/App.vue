@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-4">
+      <div class="col-12 col-lg-4">
         <Bar />
       </div>
-      <div class="col-8 ps-5 pt-4">
+      <div class="col-12 col-lg-8 ps-5 pt-4">
         <Work
           title="inChromaStudio"
           year="2021"
