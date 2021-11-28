@@ -7,14 +7,7 @@
           style="width: 100%"
         >
           <div
-            class="
-              m-auto m-lg-0
-              me-lg-4
-              rounded-circle
-              bg-secondary
-              avatar
-              text-center
-            "
+            class="m-auto m-lg-0 me-lg-4 rounded-circle bg-secondary avatar text-center"
           >
             <img class="h-100" src="../../assets/img/avatar.png" alt="" />
           </div>

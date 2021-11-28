@@ -2,14 +2,7 @@
   <div>
     <div class="left d-inline-flex d-lg-block float-end pe-lg-4 me-4 me-lg-0">
       <div
-        class="
-          d-none d-lg-block
-          rounded-circle
-          bg-secondary
-          avatar
-          text-center
-          me-4
-        "
+        class="d-none d-lg-block rounded-circle bg-secondary avatar text-center me-4"
       >
         <img class="h-100" src="../assets/img/avatar.png" alt="" />
       </div>
@@ -24,10 +17,14 @@
             >
           </li>
           <li id="work" class="hvr-backward hvr-underline-from-right">
-            <router-link on:click="setActive('about')" to="/work">work</router-link>
+            <router-link on:click="setActive('about')" to="/work"
+              >work</router-link
+            >
           </li>
           <li id="contacts" class="hvr-backward hvr-underline-from-right">
-            <router-link on:click="setActive('about')" to="/contacts">contacts</router-link>
+            <router-link on:click="setActive('about')" to="/contacts"
+              >contacts</router-link
+            >
           </li>
         </ul>
       </div>
@@ -40,7 +37,10 @@ export default {
   name: "Bar",
   data: () => {
     return {
-      active: window.location.href.split('/')[window.location.href.split('/').length-1],
+      active:
+        window.location.href.split("/")[
+          window.location.href.split("/").length - 1
+        ],
     };
   },
   mounted() {
