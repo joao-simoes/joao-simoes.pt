@@ -2,17 +2,17 @@
   <div id="app">
     <div class="container">
       <div class="w-100 vh-100 d-flex align-items-center">
-        <div class="d-inline-flex justify-content-center" style="width: 100%;">
-          <div class="rounded-circle bg-secondary avatar text-center">
+        <div class="d-lg-inline-flex justify-content-center text-center" style="width: 100%;">
+          <div class="m-auto m-lg-0 me-lg-4 rounded-circle bg-secondary avatar text-center">
             <img class="h-100" src="../../assets/img/avatar.png" alt="">
           </div>
-          <div class="d-flex align-items-center">
-            <div class="ms-3 me-5 justify-content-center">
-              <h1>João Simões</h1>
-              <h5 class="text-end">Web Developer</h5>
+          <div class="d-block d-lg-flex align-items-center">
+            <div class="ms-lg-3 me-lg-5 justify-content-center">
+              <h1 class="mt-2">João Simões</h1>
+              <h5 class="text-lg-end">Web Developer</h5>
             </div>
             <div>
-              <ul class="ps-3 ms-2">
+              <ul class="p-0 ps-lg-3 mt-5 mt-lg-0 ms-lg-2 text-lg-start">
                 <li class="hvr-forward hvr-underline-from-left">
                   <router-link to="/about">About</router-link>
                 </li>
@@ -79,6 +79,18 @@
     width: 20%;
     min-width: 80px;
   }
+
+  @media only screen and (max-width: 992px) {
+
+  .avatar {
+    width: 50%;
+  }
+
+  ul {
+    list-style: none;
+    border-left: 0px;
+  }
+}
 
 
 </style>
