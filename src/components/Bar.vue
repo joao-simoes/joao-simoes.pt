@@ -1,7 +1,16 @@
 <template>
   <div>
     <div class="left d-inline-flex d-lg-block float-end pe-lg-4 me-4 me-lg-0">
-      <div class="d-none d-lg-block rounded-circle bg-secondary avatar text-center me-4">
+      <div
+        class="
+          d-none d-lg-block
+          rounded-circle
+          bg-secondary
+          avatar
+          text-center
+          me-4
+        "
+      >
         <img class="h-100" src="../assets/img/avatar.png" alt="" />
       </div>
       <div class="mt-lg-5 mb-5 mb-lg-0">
@@ -9,14 +18,16 @@
           <li class="hvr-backward hvr-underline-from-right">
             <router-link to="/">home</router-link>
           </li>
-          <li class="hvr-backward hvr-underline-from-right">
-            <router-link to="/about">about</router-link>
+          <li id="about" class="hvr-backward hvr-underline-from-right">
+            <router-link on:click="setActive('about')" to="/about"
+              >about</router-link
+            >
           </li>
-          <li class="hvr-backward hvr-underline-from-right active">
-            <router-link to="/work">work</router-link>
+          <li id="work" class="hvr-backward hvr-underline-from-right">
+            <router-link on:click="setActive('about')" to="/work">work</router-link>
           </li>
-          <li class="hvr-backward hvr-underline-from-right">
-            <router-link to="/contacts">contacts</router-link>
+          <li id="contacts" class="hvr-backward hvr-underline-from-right">
+            <router-link on:click="setActive('about')" to="/contacts">contacts</router-link>
           </li>
         </ul>
       </div>
@@ -27,6 +38,14 @@
 <script>
 export default {
   name: "Bar",
+  data: () => {
+    return {
+      active: window.location.href.split('/')[window.location.href.split('/').length-1],
+    };
+  },
+  mounted() {
+    document.getElementById(this.active).classList.add("active");
+  },
 };
 </script>
 
