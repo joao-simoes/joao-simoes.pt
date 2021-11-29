@@ -7,6 +7,12 @@
 </template>
 
 <style>
+#app {
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
 .overlay-left,
 .overlay-right,
 .overlay-top,

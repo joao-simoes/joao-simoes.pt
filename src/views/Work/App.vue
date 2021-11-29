@@ -6,7 +6,7 @@
       </div>
       <div class="col-12 col-lg-8 ps-5 pt-4">
         <Work
-          title="inChromaStudio"
+          title="inChroma Studio"
           year="2021"
           desc="Full-Stack Project"
           url="www.inchromastudio.pt"
