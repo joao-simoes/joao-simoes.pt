@@ -46,18 +46,7 @@
           <p>Homebrewing</p>
         </section>
         <!-- HOBBIES -->
-
-        <!-- SOCIAL MEDIA -->
-        <section>
-          <h2 class="mt-5 pt-5">SOCIAL MEDIA</h2>
-          <hr />
-          <p>Music</p>
-          <p>Photography</p>
-          <p>Video</p>
-          <p>Travel</p>
-          <p>Homebrewing</p>
-        </section>
-        <!-- SOCIAL MEDIA -->
+        
       </div>
     </div>
   </div>
