@@ -8,7 +8,14 @@
         <!-- INFO -->
         <section class="d-inline-flex">
           <div
-            class="d-lg-none rounded-circle bg-secondary avatar text-center me-4"
+            class="
+              d-lg-none
+              rounded-circle
+              bg-secondary
+              avatar
+              text-center
+              me-4
+            "
           >
             <img class="h-100" src="../../assets/img/avatar.png" alt="" />
           </div>
@@ -39,14 +46,27 @@
         <section class="hobbies">
           <h2 class="mt-5 pt-5">HOBBIES</h2>
           <hr />
-          <p>Music</p>
-          <p>Photography</p>
-          <p>Video</p>
-          <p>Travel</p>
-          <p>Homebrewing</p>
+          <div class="d-inline-flex pt-4">
+            <i class="fas fa-drum me-2"></i>
+            <h5 class="m-0">Music</h5>
+          </div>
+          <br />
+          <div class="d-inline-flex pt-4">
+            <i class="fas fa-camera-retro me-2"></i>
+            <h5 class="m-0">Photography</h5>
+          </div>
+          <br />
+          <div class="d-inline-flex pt-4">
+            <i class="fas fa-paper-plane me-2"></i>
+            <h5>Travel</h5>
+          </div>
+          <br />
+          <div class="d-inline-flex pt-4">
+            <i class="fas fa-beer me-2"></i>
+            <h5>Homebrewing</h5>
+          </div>
         </section>
         <!-- HOBBIES -->
-        
       </div>
     </div>
   </div>
