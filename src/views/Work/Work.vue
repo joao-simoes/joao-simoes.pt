@@ -23,13 +23,12 @@ export default {
     year: String,
     desc: String,
     url: String,
-    stack: Array
+    stack: Array,
   },
 };
 </script>
 
 <style lang="scss" scoped>
-
 h3,
 h4,
 h6 {

@@ -10,7 +10,11 @@
           year="2021"
           desc="The inChroma Studio is a photography/videography & social media management business managed by close friends and family. They needed to grow their web presence and I helped them reaching so by developing a website for their business. If you need your business to reach more people, go check them out!"
           url="www.inchromastudio.pt"
-          :stack="['fab fa-vuejs', 'fab fa-font-awesome-flag','fab fa-bootstrap']"
+          :stack="[
+            'fab fa-vuejs',
+            'fab fa-font-awesome-flag',
+            'fab fa-bootstrap',
+          ]"
         />
 
         <Work
@@ -18,7 +22,11 @@
           title="Carica"
           year="2021"
           desc="If you have already checked my about page, you probably noticed that I like homebrewing. This project is just a small pet project developed to showcase the beers I brew."
-          :stack="['fab fa-vuejs', 'fab fa-font-awesome-flag','fab fa-bootstrap']"
+          :stack="[
+            'fab fa-vuejs',
+            'fab fa-font-awesome-flag',
+            'fab fa-bootstrap',
+          ]"
           url="soon"
         />
 
@@ -27,7 +35,11 @@
           title="A Saboeira - Turismo Rural"
           year="2022 - under development"
           desc="A Saboeira it's a guest house located in Belver, Portugal managed by family. We are still developing this project, so, there's not too much to say yet, but the business is already up and running, so if you need a good vacation go check them out!"
-          :stack="['fab fa-vuejs', 'fab fa-font-awesome-flag','fab fa-bootstrap']"
+          :stack="[
+            'fab fa-vuejs',
+            'fab fa-font-awesome-flag',
+            'fab fa-bootstrap',
+          ]"
           url="soon"
         />
       </div>

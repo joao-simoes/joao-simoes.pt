@@ -8,14 +8,7 @@
         <!-- INFO -->
         <section class="d-inline-flex">
           <div
-            class="
-              d-lg-none
-              rounded-circle
-              bg-secondary
-              avatar
-              text-center
-              me-4
-            "
+            class="d-lg-none rounded-circle bg-secondary avatar text-center me-4"
           >
             <img class="h-100" src="../../assets/img/avatar.png" alt="" />
           </div>
