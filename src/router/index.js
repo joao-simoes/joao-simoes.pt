@@ -8,38 +8,36 @@ import Oops from "../views/oops/App.vue";
 
 Vue.use(VueRouter);
 
-const routes = [
-  {
-    path: "/",
-    name: "Home",
-    component: Home,
-  },
-  {
-    path: "/about",
-    name: "About",
-    component: About,
-  },
-  {
-    path: "/work",
-    name: "Work",
-    component: Work,
-  },
-  {
-    path: "/contacts",
-    name: "Contacts",
-    component: Contacts,
-  },
-  {
-    path: "/*",
-    name: "404",
-    component: Oops,
-  },
+const routes = [{
+        path: "/",
+        name: "Home",
+        component: Home,
+    },
+    {
+        path: "/about",
+        name: "About",
+        component: About,
+    },
+    {
+        path: "/work",
+        name: "Work",
+        component: Work,
+    },
+    {
+        path: "/contacts",
+        name: "Contacts",
+        component: Contacts,
+    },
+    {
+        path: "/*",
+        name: "404",
+        component: Oops,
+    },
 ];
 
 const router = new VueRouter({
-  mode: "history",
-  base: process.env.BASE_URL,
-  routes,
+    mode: "history",
+    routes,
 });
 
 export default router;
