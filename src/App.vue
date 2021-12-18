@@ -6,7 +6,7 @@
   </div>
 </template>
 
-<style lang="scss" >
+<style lang="scss">
 $urbanist: "Urbanist", sans-serif;
 
 #app {
