@@ -46,7 +46,6 @@
           <p>Homebrewing</p>
         </section>
         <!-- HOBBIES -->
-        
       </div>
     </div>
   </div>

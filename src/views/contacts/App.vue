@@ -11,26 +11,33 @@
           <hr />
 
           <div class="d-inline-flex mt-3">
-            <a class="hvr-grow"
+            <a
+              class="hvr-grow"
               href="https://www.facebook.com/joao.pedro.simoess/"
               target="_blank"
               ><i class="fab fa-facebook-f fa-3x"></i
             ></a>
-            <a class="hvr-grow" 
-            href="https://www.instagram.com/jsimoes____/" target="_blank"
+            <a
+              class="hvr-grow"
+              href="https://www.instagram.com/jsimoes____/"
+              target="_blank"
               ><i class="fab fa-instagram fa-3x mx-5"></i
             ></a>
-            <a class="hvr-grow"
-            href="https://github.com/joao-simoes" target="_blank"
+            <a
+              class="hvr-grow"
+              href="https://github.com/joao-simoes"
+              target="_blank"
               ><i class="fab fa-github fa-3x me-5"></i
             ></a>
-            <a class="hvr-grow"
-            href="https://www.linkedin.com/in/joaopsimoes0/" target="_blank"
+            <a
+              class="hvr-grow"
+              href="https://www.linkedin.com/in/joaopsimoes0/"
+              target="_blank"
               ><i class="fab fa-linkedin fa-3x"></i
             ></a>
           </div>
 
-          <br>
+          <br />
 
           <!-- CONTACTS -->
           <section class="d-inline-flex mt-5">

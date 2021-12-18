@@ -6,11 +6,18 @@
   </div>
 </template>
 
-<style>
+<style lang="scss" >
+$urbanist: "Urbanist", sans-serif;
+
 #app {
   max-width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
+  font-family: $urbanist;
+  background-image: url("./assets/img/bg.svg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .overlay-left,
