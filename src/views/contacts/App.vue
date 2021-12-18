@@ -42,7 +42,7 @@
           <!-- CONTACTS -->
           <section class="d-inline-flex mt-5">
             <i class="fas fa-at fa-2x"></i>
-            <h3 class="ms-2">work@joao-simoes.pt</h3>
+            <h3 class="ms-2">joaopsimoes0@gmail.com</h3>
           </section>
           <!-- CONTACTS -->
         </section>
