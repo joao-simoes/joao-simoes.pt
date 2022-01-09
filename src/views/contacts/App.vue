@@ -10,7 +10,7 @@
           <h2 class="mt-5 pt-2">SOCIAL MEDIA</h2>
           <hr />
 
-          <div class="d-inline-flex mt-3">
+          <div class="social w-50 d-inline-flex justify-content-between mt-3">
             <a
               class="hvr-grow"
               href="https://www.facebook.com/joao.pedro.simoess/"
@@ -21,13 +21,13 @@
               class="hvr-grow"
               href="https://www.instagram.com/jsimoes____/"
               target="_blank"
-              ><i class="fab fa-instagram fa-3x mx-5"></i
+              ><i class="fab fa-instagram fa-3x"></i
             ></a>
             <a
               class="hvr-grow"
               href="https://github.com/joao-simoes"
               target="_blank"
-              ><i class="fab fa-github fa-3x me-5"></i
+              ><i class="fab fa-github fa-3x"></i
             ></a>
             <a
               class="hvr-grow"
@@ -75,5 +75,19 @@ h2 {
 
 .row {
   padding: 14% 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .social {
+    width: 80% !important;
+  }
+
+  i {
+    font-size: 200% !important;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
 }
 </style>
