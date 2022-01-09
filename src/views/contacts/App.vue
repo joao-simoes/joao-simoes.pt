@@ -35,6 +35,12 @@
               target="_blank"
               ><i class="fab fa-linkedin fa-3x"></i
             ></a>
+            <a
+              class="hvr-grow"
+              href="https://www.behance.net/jsimoes0"
+              target="_blank"
+              ><i class="fab fa-behance fa-3x"></i
+            ></a>
           </div>
 
           <br />
