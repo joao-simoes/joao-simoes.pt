@@ -85,7 +85,7 @@ h2 {
   i {
     font-size: 200% !important;
   }
-  
+
   h3 {
     font-size: 20px;
   }
