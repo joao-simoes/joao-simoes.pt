@@ -1,24 +1,4 @@
-# joao-simoes
+# Personal Website
+## Check it out @ https://www.joao-simoes.pt
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![prototype](https://mir-s3-cdn-cf.behance.net/project_modules/fs/f53ea3133018421.61b48a28f1d48.png)
