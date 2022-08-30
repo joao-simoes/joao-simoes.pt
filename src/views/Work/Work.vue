@@ -1,12 +1,15 @@
 <template>
   <div>
     <section>
-      <h2>{{ title }}</h2>
+      <h2>{{  title  }}</h2>
       <hr />
-      <h3 class="mt-3">{{ year }}</h3>
-      <p class="w-75 my-4">{{ desc }}</p>
-      <h5 class="mt-4">
-        Visit @ <a :href="'https://' + url" target="_blank">{{ url }}</a>
+      <h3 class="mt-3">{{  year  }}</h3>
+      <p class="w-75 my-4">{{  desc  }}</p>
+      <h5 class="mt-4" v-if="url != 'soon'">
+        Visit @ <a :href="'https://' + url" target="_blank">{{  url  }}</a>
+      </h5>
+      <h5 class="mt-4" v-else>
+        Visit @ <a href="#">{{  url  }}</a>
       </h5>
       <div class="d-inline-flex mt-4" v-for="tech in stack" :key="tech">
         <i :class="tech" class="fa-2x mx-2"></i>

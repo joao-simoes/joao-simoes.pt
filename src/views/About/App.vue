@@ -14,7 +14,7 @@
           </div>
           <div>
             <h2>João Simões</h2>
-            <h2>21 yo</h2>
+            <h2>22 yo</h2>
             <h2>Portugal</h2>
           </div>
         </section>

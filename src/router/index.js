@@ -1,8 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/index/App.vue";
-import About from "../views/about/App.vue";
-import Work from "../views/work/App.vue";
+import Home from "../views/Index/App.vue";
+import About from "../views/About/App.vue";
+import Work from "../views/Work/App.vue";
 import Contacts from "../views/contacts/App.vue";
 import Oops from "../views/oops/App.vue";
 
